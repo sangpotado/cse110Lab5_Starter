@@ -2,11 +2,11 @@
 
 //args: descript of the test, a function of what the test should run
 test('adds 1 + 2 to equal 3', () => {
-  expect(1 + 2).toBe(4);
+  expect(1 + 2).toBe(3);
 });
 
 import { sum } from '../code-to-unit-test/sum';
 
 test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1,2)).toBe(5);
+  expect(sum(1,2)).toBe(3);
 });
