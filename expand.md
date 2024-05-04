@@ -1,0 +1,3 @@
+1. Why is it important to put thought into your IDs & Classes when it comes to technology intersections? (e.g. how HTML, CSS, and JS intersect). Answer: maintainbility and accessibility. With thoughtful Classes and IDs, you can getElement or querySelect more accurately and efficiently; and the changes (CSS or Javascript) would not affect other elements.  
+2. What are Data attributes? Why might they be useful? How do you access them? What are the implications of using Data attributes when it comes to things like microdata? Answer: data attributes are custom attributes that can be added to HTML elements to store extra information. They can be used to store custom data, javascript or css interaction.
+3. What is a DOM fragment? Why are they powerful?
