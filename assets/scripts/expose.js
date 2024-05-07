@@ -2,6 +2,10 @@
 
 window.addEventListener('DOMContentLoaded', init);
 
+const jsConfetti = new JSConfetti();
+// Set the style properties to position the confetti at the middle of the screen
+jsConfetti.style.transform = 'translate(-50%, -50%)';
+
 function init() {
   // TODO
   var horn_name = document.querySelector("#horn-select");
@@ -61,13 +65,9 @@ function playsound() {
   let horn_name = document.querySelector("#horn-select");
 
   if (horn_name.value == 'party-horn') {
-    const jsConfetti = new JSConfetti();
-    // let confetti_e = document.querySelector('canvas');
-    // confetti_e.style.
     jsConfetti.addConfetti({
       confettiRadius: 10,
       initialPosition: 400
-      // confettiNumber: 30,
     });
   }
 
